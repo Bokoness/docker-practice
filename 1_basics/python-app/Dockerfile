@@ -1,5 +1,6 @@
 #docker build -t pypy .
-#CMD ["node", "server.js"]
+#docker run --name ness -it pypy
+
 FROM python
 
 WORKDIR /app
